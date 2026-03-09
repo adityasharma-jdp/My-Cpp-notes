@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"neter the value of number of rows:-";
+    cin>>n;
+    for(int l=1;l<=2*n-1;l++){
+        cout<<l;
+    }
+    cout<<endl;
+    int m=n-1;
+    int nsp=1;
+    for(int i=1;i<=m;i++){
+        for(int j=1;j<=m+1-i;j++){
+            cout<<j;
+
+        }
+        for(int k=1;k<=nsp;k++){
+            cout<<" ";
+        }
+        nsp+=2;
+         for(int o=1;o<=m+1-i;o++){
+            cout<<o;
+
+        }
+cout<<endl;
+    }
+}
