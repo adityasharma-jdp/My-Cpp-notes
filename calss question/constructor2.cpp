@@ -9,10 +9,12 @@ class Student {
 
 public:
 
-    // 1️⃣ Default Constructor
-    Student() {
+// 1️⃣ Default Constructor
+
+Student() {
         cout << "Default Constructor Called" << endl;
     }
+
 
     // 2️⃣ Two Parameter Constructor
     Student(int r, string s) {
@@ -26,18 +28,18 @@ public:
         roll = r;
         name = s;
         course = c;
-        cout << "Student Created: "
-             << roll << " "
-             << name << " "
-             << course << endl;
+        cout << "Student Created: "<< roll << " "<< name << " "<< course << endl;
     }
 };
 
-int main() {
 
-    Student s1;                         // Default agar koi bhi pamenter pass nhi kiye hai 
-    Student s2(101, "Aditya");          // 2 parameter kiye hai to paramatrise construcor
-    Student s3(102, "Rahul", "CSE");    // 3 parameter pass kiye hai to 3 paramaeterise constructor
+// Jo Bhi Hum Kaise Le Liye 
 
-    return 0;
+int main() { 
+Student s1;                         // Default agar koi bhi pamenter pass nhi kiye hai o autaomatically default constructor
+Student s2(101, "Aditya");          // 2 parameter kiye hai to paramatrise constr    Student s3(102, "Rahul", "CSE");    // 3 parameter pass kiye hai to 3 paramaeterise constructor
+Student s3(101,"Aaditya","Cse");
+return 0;
+
+
 }

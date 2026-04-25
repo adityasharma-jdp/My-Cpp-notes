@@ -44,6 +44,7 @@ void display(int a, string n){
     if(a>0){
         age=a;
         name=n;
+        cout<<age<<" "<<name;
 
     }
     else cout<<"invaild age";

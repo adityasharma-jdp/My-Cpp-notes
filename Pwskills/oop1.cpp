@@ -6,6 +6,7 @@
 // data member functon===> classs ke ander likhe jane wale function ko data member kehte hai
 //member function data member ko exess kar sakte hai
 //class is blueprint===>rough idea kiske baare me code likha ja raha hai
+// blue print ka mtlb yeh hai ki code ka structure ki usme kya kya data type ke varrrible 
 
 #include <iostream>
 using namespace std;

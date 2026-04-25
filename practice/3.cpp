@@ -12,4 +12,9 @@ int main(){
         if(arr[i]%2==0) cout<<"number of array is even";
         else cout<<"number of array is odd";
     }
+ 
+    
+
+
+
 }

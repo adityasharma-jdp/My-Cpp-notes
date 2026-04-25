@@ -14,7 +14,7 @@ cout<<"value of x= "<<x<<endl;
 
 };
 int main(){
-    person p1(12),p2(27),p3(90);
+    person p1(12),p2(27),p3(90);/// alage alg p1,p2 ke liye hum alag alag value set kar rhae hai fir unk=he display kar rhe hai 
     p1.display();
     p2.display();
     p3.display();
