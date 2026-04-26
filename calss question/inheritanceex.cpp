@@ -23,6 +23,6 @@ int main(){
 animal a1;
 dog d1;
 a1.display1();
-d1.display2();
+d1.
 
 }
