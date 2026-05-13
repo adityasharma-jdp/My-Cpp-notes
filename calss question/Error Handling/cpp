@@ -1,0 +1,28 @@
+//catching multiple exceptions usig multiple catch blocks 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    try{
+        int a;
+         cout<<" enter  the number between 1 and 5 ";.
+         cin>>a;
+         if(a<1){
+            throw invaild_argument("invalid argumaent ");
+         } 
+         else if(a>5){
+            throw out_of_range("out of range ");
+         }
+         else {
+            throw "unknown  error ";
+         }
+    }
+    catch(invalid_argument e){
+        cout<<e.what()<<endl;
+    }
+    catch(out_of_range e){
+        cout<<e<<endl;
+    }
+    catch(...){
+        cout<<"unknown "<<endl;
+    }
+}

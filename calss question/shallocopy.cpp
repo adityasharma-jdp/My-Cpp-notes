@@ -16,6 +16,7 @@
 // // *p2++; // ek  me change karte hi dusre me bhi change ho jayega
 // // cout<<p2<<endl<<p1;
 // // }
+
 // #include<iostream> 
 // using namespace std;
 // int main(){

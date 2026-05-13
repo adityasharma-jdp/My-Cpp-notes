@@ -4,6 +4,7 @@
 //static data members must be intilized outside class 
 // class using scopre resolution opretor
 // static data members are intilizing first and can be used by any object or without object also
+
 #include<iostream>
 using namespace std;
 class student{
@@ -14,6 +15,7 @@ class student{
     student(){
         count++;
     }
+
 
 };
 
@@ -39,4 +41,5 @@ cout<<student::count<<"object is created";
 
 
 }
+
 ///wap to count number of object  created for a class  

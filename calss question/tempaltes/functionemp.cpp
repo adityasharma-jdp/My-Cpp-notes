@@ -23,7 +23,7 @@ T add( T a, T b){
 
 }
 int main(){
-    cout<<add(5,10)<<endl;
+   cout<<add<int>(5,02) <<endl;
 
 
 }

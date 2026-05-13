@@ -1,24 +1,24 @@
-// it is the proccess of using  one thing in  multiple ways .
+// // it is the proccess of using  one thing in  multiple ways .
 
-// Type of polymorphisum :
-// 1. Compile Time Polymorphisum :
-/*
-a- it is consist of function(method) overloading and opretor overloading 
-b- it also known as early binding orr static binding 
+// // Type of polymorphisum :
+// // 1. Compile Time Polymorphisum :
+// /*
+// a- it is consist of function(method) overloading and opretor overloading 
+// b- it also known as early binding orr static binding 
 
-2. Run time polymohrphisum 
-a- it consit of function(method ) overiding and virtual functions 
-b- it si also known as late binding or dynamic binding.
+// 2. Run time polymohrphisum 
+// a- it consit of function(method ) overiding and virtual functions 
+// b- it si also known as late binding or dynamic binding.
 
-virtual function is overriddable function means ifsame function 
-
-
+// virtual function is overriddable function means ifsame function 
 
 
 
 
 
-*/
+
+
+// */
 
 
 

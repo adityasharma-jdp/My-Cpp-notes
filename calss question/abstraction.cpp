@@ -47,6 +47,7 @@ class car:public vehicle{
         cout<<"car is applying break"<<endl; // providing definition of pure virtual function
     }
 };
+
 int main(){
     // vehicle v1(4,"honda"); can not create instance of abstract class
     car c1(4,"honda");
